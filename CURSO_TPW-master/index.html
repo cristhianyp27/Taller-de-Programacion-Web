@@ -21,9 +21,14 @@
 
     <div class="messages">
       <p>Vidas: <span id="lives"></span></p>
-      <p>Tiempo: ⏳<span id="time"></span></p>
+      <p>Tiempo: ⏳<span id="time"></span></p>|
       <p>Record: 🚩<span id="record"></span></p>
       <p id="result"></p>
+    </div>
+    <div> <button id="btnReproducir">Reproducir sonido</button>
+      <button id="btnPausar">Pausar sonido</button>
+      <button id="btnReiniciar">Ir a inicio de sonido</button>
+      <audio src="Musica de Super Mario Bros (mp3cut.net).mp3" preload="auto" controls="none" style="display: none;"></audio>
     </div>
   </div>
   <p id="defeatMessage" style="display: none;">¡Lo siento! Has perdido el juego.</p>
